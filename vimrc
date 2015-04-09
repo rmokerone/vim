@@ -100,3 +100,13 @@ nmap <Leader>sch :AS<CR>
 
 "当前目录找不到ctags时到上层目录查找
 set tags=tags;/
+
+"superTab补全
+let g:SuperTabRetainCompletionType = 2
+let g:SuperTabRetainCompletionType = "<C-X><C-O>"
+
+"括号补全
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap { {}<ESC>i
+inoremap < <><ESC>i
