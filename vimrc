@@ -62,7 +62,7 @@ set cursorcolumn
 "高亮显示搜索结果
 set hlsearch
 "取消代码折行
-set nowrap
+"set nowrap
 
 "设置主题背景透明
 "设置状态栏主题风格
@@ -105,8 +105,7 @@ set tags=tags;/
 let g:SuperTabRetainCompletionType = 2
 let g:SuperTabRetainCompletionType = "<C-X><C-O>"
 
-"括号补全
-inoremap ( ()<ESC>i
-inoremap [ []<ESC>i
-inoremap { {}<ESC>i
-inoremap < <><ESC>i
+"去除乱码
+set fencs=utf-8,chinese,latin1 fenc=utf-8 enc=utf-8
+
+
